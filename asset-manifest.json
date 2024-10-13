@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/speed-limit-tracker-nz/static/css/main.379b31ca.css",
+    "main.js": "/speed-limit-tracker-nz/static/js/main.c1653f88.js",
+    "static/js/453.9e2284ef.chunk.js": "/speed-limit-tracker-nz/static/js/453.9e2284ef.chunk.js",
+    "index.html": "/speed-limit-tracker-nz/index.html",
+    "main.379b31ca.css.map": "/speed-limit-tracker-nz/static/css/main.379b31ca.css.map",
+    "main.c1653f88.js.map": "/speed-limit-tracker-nz/static/js/main.c1653f88.js.map",
+    "453.9e2284ef.chunk.js.map": "/speed-limit-tracker-nz/static/js/453.9e2284ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.379b31ca.css",
+    "static/js/main.c1653f88.js"
+  ]
+}
