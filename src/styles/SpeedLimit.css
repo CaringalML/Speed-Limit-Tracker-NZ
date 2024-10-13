@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.background-light-red {
+    background-color: rgba(255, 99, 71, 0.5);
+}
+
+.speed-limit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.outer-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    border: 20px solid red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.speed-limit-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speed-limit-value {
+    font-size: 195px;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.no-speed-limit-message {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+
+.speed-limit-unit {
+    font-size: 10px;
+    font-weight: normal;
+    color: black;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.location-details {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    padding: 0 10px;
+}
+
+.loading-message {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.error-message {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.offline-message {
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.current-speed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.current-speed p {
+    margin: 0;
+}
+
+.current-speed-value {
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    display: inline;
+}
+
+.current-speed-unit {
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    margin-left: 5px;
+    display: inline;
+}
+
+.slow-down-message {
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Mobile Specific Styles */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .speed-limit-container {
+        margin-top: 20px;
+        width: 100%;
+        max-width: none;
+    }
+
+    .outer-circle {
+        width: 75vw;
+        height: 75vw;
+        border: 20px solid red;
+    }
+
+    .speed-limit-value,
+    .no-speed-limit-message {
+        width: 69vw;
+        height: 69vw;
+    }
+
+    .speed-limit-value {
+        font-size: 40vw;
+    }
+
+    .no-speed-limit-message {
+        font-size: 5vw;
+        padding: 10px;
+    }
+
+    .location-details {
+        font-size: 5vw;
+    }
+
+    .speed-limit-unit {
+        font-size: 8vw;
+        margin-left: 5px;
+    }
+}
+
+.offline-message {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+}
